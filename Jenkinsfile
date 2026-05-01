@@ -33,7 +33,6 @@ pipeline {
             }
         }
 
-        }
 
 
          stage('Nexus Artifact Upload'){
@@ -80,3 +79,5 @@ pipeline {
             echo 'I will run when pipeline is failure'
         }
     }
+}
+
