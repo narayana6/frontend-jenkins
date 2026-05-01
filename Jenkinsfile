@@ -66,7 +66,7 @@ pipeline {
                     build job: 'frontend-deploy', parameters: params, wait: false
                 }
             }
-        } */
+        } 
     }
     post { 
         always { 
@@ -80,4 +80,3 @@ pipeline {
             echo 'I will run when pipeline is failure'
         }
     }
-}
